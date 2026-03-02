@@ -6,8 +6,7 @@ const Form = () => {
   const [department, setDepartment] = useState("");
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-
+    e.preventDefault();c
     const formData = {
       name,
       email,
